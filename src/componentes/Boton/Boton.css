@@ -1,0 +1,25 @@
+button{
+    padding: 1.5rem 3rem;
+    margin: 24px 0;
+    border: none;
+    background-color: var(--morado);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: var(--fontMontserrath);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(0.8);
+    color: var(--verde);
+    transition: 100ms;
+}
+
+@media screen and (min-width: 375px) and (max-width:769px){
+    button{
+        padding:1rem;
+    }
+
+}

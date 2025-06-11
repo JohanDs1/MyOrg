@@ -1,0 +1,27 @@
+.lista-opciones label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--fontMontserrath);
+    margin-bottom: 8px;
+}
+
+.lista-opciones select{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0,0 ,0 , 0.08) ;
+    padding: 24px;
+    border: none;
+    outline-color: var(--morado);
+    font-size: 16px;
+}
+
+@media screen and (min-width: 375px) and (max-width:769px){
+    .lista-opciones label{
+        font-size: 15px;
+    }
+    .lista-opciones select{
+        padding: 16px;
+    }
+
+}

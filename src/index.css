@@ -1,0 +1,26 @@
+:root {
+  --fontPrata:'Prata', serif;
+  --fontMontserrath:  'Montserrat', sans-serif;
+  --morado: #6278F7;
+  --green1: #57C278 ;
+  --green2: #95FFD4;
+  --cyan1:#82CFFA;
+  --cyan2:#E8F8FF;
+  --green3:#A6D157;
+  --green4:#F0F8E2;
+  --red1:#E06B69;
+  --red2:#FDE7E8;
+  --pink1:#DB6EBF;
+  --pink2:#FAE9F5;
+  --orange1:#FFBA05;
+  --orange2:#FFF5D9;
+  --orange3:#FF8A29;
+  --orange4:#FFEEDF;
+
+}
+
+body {
+  margin: 0;
+  font-family: var(--fontPrata);
+}
+

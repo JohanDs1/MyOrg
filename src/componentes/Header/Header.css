@@ -1,0 +1,9 @@
+.header{
+    background-color: var(--morado);
+    text-align: center;
+
+}
+
+.header img{
+    max-width:100%;
+}

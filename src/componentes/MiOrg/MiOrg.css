@@ -1,0 +1,35 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: var(--fontPrata);
+    font-size: 40px;
+    color: var(--morado);
+    font-weight: 400;
+    padding-bottom:24px;
+    border-bottom: 4px solid var(--morado);
+}
+
+.orgSection img{
+    position: absolute;
+    right: 22%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px) and (max-width:769px){
+    .orgSection{
+        justify-content: space-around;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .orgSection img{
+        right: 0%;
+        transform: scale(0.8);
+    }
+
+}

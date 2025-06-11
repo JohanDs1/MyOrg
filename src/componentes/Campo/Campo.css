@@ -1,0 +1,47 @@
+.campo{
+    margin: 24px 0;
+    font-family: var(--fontMontserrath);
+
+}
+.campo label{
+    font-family: var(--fontMontserrath);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+/*Se puede poner los hover aqui mismo para cada elemento*/
+
+.campo input{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0,0 ,0 , 0.08) ;
+    border: none;
+    padding: 30px 20px;
+    outline-color: var(--morado);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.campo-color input{
+    height: 40px;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+@media screen and (min-width: 375px) and (max-width:769px){
+    .campo{
+        margin: 12px 0;
+    }
+    .campo label{
+        font-size: 15px;
+    }
+    .campo input{
+        padding: 15px 10px;
+    }
+    .campo-color input{
+        height: 40px;
+        padding: 5px 20px;
+    }
+
+}
